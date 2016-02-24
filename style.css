@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'belligerent_madnessregular';
+    src: url('font/belligerent/belligerent-webfont.eot');
+    src: url('font/belligerent/belligerent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/belligerent/belligerent-webfont.woff') format('woff'),
+         url('font/belligerent/belligerent-webfont.ttf') format('truetype'),
+         url('font/belligerent/belligerent-webfont.svg#belligerent_madnessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header
+{
+	border: 3px red dashed;
+}
+
+h1
+{
+	font-family: 'belligerent_madnessregular', Arial, sans-serif;
+	font-size: 48px;
+	color: #CFCC25;
+	text-shadow: 6px 6px 6px #E8E7C1;
+	text-align: center;
+}
+
+nav
+{
+	border: 3px green dashed;
+}
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+}
+
+nav li
+{
+	margin: 25px;
+}
+nav a
+{
+	color: #CFCC25;
+	font-size: 1.4em;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #F5AF40;
+	border-bottom: 1px solid #F5AF40;
+}
+
+body
+{
+	background-color: #000000;
+	color: #CFCC25;
+}
+
+section
+{
+	border: 3px blue dashed;
+	display: flex;
+}
+
+
+article
+{
+	border: 3px green solid;
+	flex: 1;
+	font-size: 1.6em;
+	margin: 15px 15px 15px 15px;
+
+	background-image: url("img/parchemin.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+
+	height: 600px;
+}
+
+#title_prg
+{
+	text-align: center;
+}
+
+.number
+{
+	padding-bottom: 15px;
+
+}
+article ul
+{
+	list-style-type: none;
+
+}
+
+article a
+{
+	color: #CFCC25;
+	text-decoration: none;
+}
+
+aside
+{
+	border: 3px yellow solid;
+	width: 650px;
+	margin: 15px 15px 15px 0px;
+
+	background-image: url("img/affiche.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+footer
+{
+	border: 3px orange dashed;
+}
+
