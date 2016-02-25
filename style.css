@@ -104,7 +104,7 @@ aside
 	color: #868E91;
 }
 
-#title_prg, #title_aside
+.title, #title_aside
 {
 	font-size: 1.6em;
 	color: #868E91;
@@ -115,10 +115,51 @@ aside
 #page_chinese
 {
 	display: flex;
+	border: 3px solid yellow;
 }
 
-.tof, .description
+.tof 
 {
 	margin: 25px 25px 25px 25px;
 	
 }
+
+.description
+{
+	margin: 150px 25px 0px 25px;
+	color: #868E91;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*book.html*/
+#msg
+{
+	width: 500px;
+	height: 300px;
+}
+
+#send
+{
+	text-align: center;
+	font-size: 1.2em;
+	width: 150px;
+	height: 30px;
+
+
+}
+
+form
+{
+	color:  #868E91;
+	font-size: 1.2em;
+}
+
+#name
+{
+	margin-left: 64px;
+}
+
+
