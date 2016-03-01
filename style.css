@@ -70,32 +70,40 @@ nav a:hover
 
 section
 {
-	
 	display: flex;
 	justify-content: center;
+	
 	
 }
 
 article
 {
 	
-	width: 70%;
+	width: 60%;
 	background-image: url();
 	
 
 }
 aside
 {
-	
-	width: 30%
+	border-left: 3px solid #4F5152; 
+	width: 40%
 }
 
-.number
+.number, .pt
 {
 	margin-bottom: 15px;
 	list-style-type: none;
 
 }
+
+.pt
+{
+	color: #868E91;
+	font-size: 1.2em;
+}
+
+
 
 .number a
 {
@@ -115,7 +123,8 @@ aside
 #page_chinese
 {
 	display: flex;
-	border: 3px solid yellow;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .tof 
@@ -124,13 +133,22 @@ aside
 	
 }
 
-.description
+.description_chinese
 {
-	margin: 150px 25px 0px 25px;
+	margin: 50px 25px 0px 25px;
 	color: #868E91;
 	font-size: 1.2em;
-	display: flex;
-	flex-direction: column;
+	text-align: justify;
+}
+
+/*clowns.html*/
+
+.description_clown, .description_tamer 
+{
+	margin: 35px 25px 0px 25px;
+	color: #868E91;
+	font-size: 1.2em;
+	text-align: justify;
 }
 
 
@@ -162,4 +180,8 @@ form
 	margin-left: 64px;
 }
 
-
+.description
+{
+	display: flex;
+	justify-content: center;
+}
